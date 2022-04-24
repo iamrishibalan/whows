@@ -1,0 +1,16 @@
+{
+    "development": {
+        "user": "webinar",
+        "password":"Teamwork@2018",
+        "database":"WoW",
+        "host": "vision.herosite.pro",
+        "dialect": "mysql"
+    },
+    "production": {
+        "user": "webinar",
+        "password":"Teamwork@2018",
+        "database":"WoW",
+        "host": "vision.herosite.pro",
+        "dialect": "mysql"
+    }
+}

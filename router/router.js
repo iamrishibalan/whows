@@ -1,0 +1,12 @@
+"use strict";
+const express = require("express");
+const router = express.Router();
+const register = require('../app/modules/register/router/router');
+const myprofile = require('../app/modules/myprofile/router/router');
+const createwebinar = require('../app/modules/createwebinar/router/router');
+const record = require('../app/modules/records/router/router');
+router.use('/', register);
+router.use('/', myprofile);
+router.use('/', createwebinar);
+router.use('/', record);
+module.exports = router;
